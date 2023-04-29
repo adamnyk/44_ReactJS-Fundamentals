@@ -1,0 +1,8 @@
+.Pokedex {
+	display: flex;
+	justify-content: center;
+}
+.Pokedex-winner {
+	text-align: center;
+    font-weight: bold;
+}
