@@ -1,0 +1,16 @@
+.EightBall {
+	border-radius: 50%;
+	padding: 10px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	color: white;
+    cursor: pointer;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
