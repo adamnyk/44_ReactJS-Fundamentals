@@ -1,0 +1,11 @@
+.CoinGame{
+    text-align: center;
+}
+.CoinGame-coin {
+    width: 250px;
+	height: 250px;
+}
+
+.CoinGame-count {
+    margin: 10px;
+}
