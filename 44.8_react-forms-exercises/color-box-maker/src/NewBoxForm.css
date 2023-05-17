@@ -1,0 +1,17 @@
+.NewBoxForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.NewBoxForm-input-group {
+    margin: 10px;
+}
+
+.NewBoxForm input {
+    margin-left: 5px;
+}
+
+.NewBoxForm span {
+    margin-left: 10px;
+    font-family: monospace;
+}

@@ -1,0 +1,17 @@
+.Box {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.Box-box {
+	border-radius: 10px;
+}
+
+.Box-button {
+	margin: 0 5px;
+	background-color: darkgrey;
+	border: none;
+	border-radius: 3px;
+
+}

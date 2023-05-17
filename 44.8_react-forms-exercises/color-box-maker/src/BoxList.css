@@ -1,0 +1,8 @@
+.BoxList{
+    
+}
+
+.BoxList-boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
