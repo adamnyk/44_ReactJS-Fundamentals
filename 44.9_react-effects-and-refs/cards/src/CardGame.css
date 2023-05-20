@@ -1,0 +1,9 @@
+button {
+	margin: 10px;
+}
+
+.CardGame-cards-wrapper {
+	margin: 40px;
+	display: flex;
+	justify-content: center;
+}
