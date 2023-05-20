@@ -1,0 +1,7 @@
+QUESTIONS
+
+- Feecback on better way to structure the app
+
+- Alert causing problems toggling state with async api call (during faster interval)
+
+- Help understanding ref and effects using dependencies (such as passing in timerId.current as a dependency, or when to use them)
