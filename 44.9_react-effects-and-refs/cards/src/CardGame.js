@@ -26,20 +26,20 @@ const CardGame = () => {
 	const timerId = useRef(null);
 	useEffect(
 		function autoDrawCard() {
-			console.log([autoDrawOn])
+
 			if (autoDrawOn && !timerId.current) {
-				timerId.current = setInterval( () => {
-					drawCard();
+				timerId.current = setInterval( async () => {
+					await drawCard();
 					console.log("draw ID:", timerId.current);
-				}, 500);
+				}, 200);
 			} else {
-				console.log('useEffect else, timer cleared')
+				// console.log('useEffect else, timer cleared')
 				clearInterval(timerId.current);
 				timerId.current = null; // may not be necessary. Makes timer clear more explicit
 			}
 			return () => clearInterval(timerId.current); // may not be necessary.
 		},
-		[autoDrawOn]
+		[autoDrawOn, setAutoDrawOn, deckId]
 	);
 
 	const drawCard = async () => {
